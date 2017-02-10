@@ -1,0 +1,44 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	color: #white;
+	background-image: linear-gradient(30deg, #262839, #606066);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/* =================================
+  Main Styles
+==================================== */
+
+nav {
+		width: 100%;
+		background: white;
+		text-align: center;
+}
+
+.name {
+	margin-top: 0;
+	padding-top: 1em;
+}
+
+nav a {
+	color: #10164f;
+}
+
+.main-nav li{
+	margin: 1em;
+}
