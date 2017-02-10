@@ -1,0 +1,71 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	color: #white;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/* =================================
+  Main Styles
+==================================== */
+
+/*-------Header-------*/
+
+.main-haider {
+		background: linear-gradient(30deg, #222, #666);
+}
+
+nav {
+		width: 100%;
+		text-align: center;
+}
+
+.name a{
+	color: #eee;
+}
+
+.name {
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+nav a {
+	color: #4a4a4a;
+}
+
+.main-nav li{
+	margin: .5em 1em;
+	padding: 1em;
+	background-color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.profile-image {
+	width: 66.66%;
+	margin: 2em 16.66%;
+}
+
+.main-haider p{
+	color: white;
+	text-align: center;
+	font-weight: 400;
+	margin: 0 10%;
+	padding-bottom: 2em;
+}
