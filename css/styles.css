@@ -13,6 +13,12 @@ body {
 
 }
 
+h2{
+	font-weight: 700;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
 a {
 	color: white;
 	text-decoration: none;
@@ -65,7 +71,71 @@ nav a {
 .main-haider p{
 	color: white;
 	text-align: center;
-	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
 	margin: 0 10%;
 	padding-bottom: 2em;
 }
+
+/*-------Content-------*/
+
+.menupoint{
+	margin: 2em 1em;
+	padding: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menupoint a{
+	color: #4a4a4a;
+}
+
+.content-image{
+	width: 90%;
+	margin: 1em 5%;
+}
+
+.work-eaxmples{
+	color: #4a4a4a;
+	text-align: center;
+}
+
+.work-eaxmples p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+/*-------Footer-------*/
+
+footer {
+	background-color: #fafafa;
+}
+
+footer .text-footer{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #003173;
+	text-align: center;
+	border-bottom: 1px;
+}
+
+.bottom a{
+color: #4a4a4a;
+float: right;
+width: 45%;
+margin: 2.5%;
+text-align: right;
+}
+
+.bottom p{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
