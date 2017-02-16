@@ -82,16 +82,19 @@ nav a {
 
 /*-------Content-------*/
 
-.menupoint{
-	margin: 2em 1em;
-	padding: 1em;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-align: center;
+.wrapper-Portfolio,
+.wrapper-Skills {
+	width: 90%;
+	margin: 1em 5%;
 }
 
 .menupoint a{
+	margin: 2em 1em;
+	padding: 1em;
 	color: #4a4a4a;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .content-image{
@@ -111,8 +114,13 @@ nav a {
 
 /*-------Footer-------*/
 
-footer {
-	background-color: #fafafa;
+footer{
+		background-color: #fafafa;
+}
+
+.wrapper-footer {
+	width: 95%;
+	margin: 2em 2.5% 0 2.5%;
 }
 
 footer .text-footer{
@@ -123,7 +131,7 @@ footer .text-footer{
 	border-bottom: 1px;
 }
 
-.bottom a{
+.back-to-top {
 color: #4a4a4a;
 float: right;
 width: 45%;
@@ -131,10 +139,26 @@ margin: 2.5%;
 text-align: right;
 }
 
+div .bottom {
+	width: 95%;
+	margin: 2em 2.5% 0 2.5%;
+	border-top: 5px;
+	border-color: black;
+
+}
+
 .bottom p{
 	float: left;
 	width: 45%;
 	margin: 2.5%;
+}
+
+.bottom-nav {
+	visibility: hidden;
+	float: right;
+	width: 0%;
+	margin: 0%;
+	text-align: right;
 }
 
 
@@ -228,15 +252,161 @@ div .Calculator-page {
 	margin: 2em 2.5%;
 }
 
+div .skills-pro {
+	width: 45%;
+	margin: 0 5% 0 0;
+	float: left;
+}
+
+div .skills-advanced {
+	width: 45%;
+	margin: 0 0 0 5%;
+	float: right;
+}
+
+.wrapper-footer {
+	padding-bottom: 7em;
+}
+
+.text-footer {
+	width: 70%;
+	margin: 0 15%;
+}
+
+.text-footer p {
+	font-size: 1.2em;
+}
+
+.back-to-top{
+	visibility: hidden;
+}
+
+.bottom-nav {
+	visibility: visible;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.bottom-nav a{
+	color: #4a4a4a;
+	float: right;
+	margin-left: 5%;
+	text-align: right;
+}
+
 
 }
 
 
 @media (min-width: 1024px){
 
+body {
+	background: linear-gradient(30deg, #222, #666);
+}
 
 
+/*-----------Haider--------------*/
 
+.main-haider {
+	width: 90%;
+	margin: 0 5%;
+	background: none;
+}
+
+nav {
+	margin: 3em 0;
+}
+
+.name{
+	width: 40%;
+	padding: 0;
+	text-align: left;
+}
+
+ h1{
+	float: left;
+}
+
+.main-nav{
+	width: 60%;
+	margin: 0;
+	float: right;
+	padding: 0;
+}
+
+.main-nav li{
+	text-align: right;
+	width: auto;
+	margin-left: 5%;
+}
+
+.Porfile-Text {
+	width: 100%;
+	margin: 0;
+}
+
+.text-header{
+	float: left;
+}
+
+/*-----------Content--------------*/
+
+.wrapper-Portfolio,
+.wrapper-Skills {
+	background: white;
+}
+
+.menupoint a{
+	padding-top: 4em;
+}
+
+div .work-eaxmples {
+	width: 33.33%;
+}
+
+.work-eaxmples p{
+	width: 90%;
+  margin: 1em 5%;
+}
+
+div .marketing-page{
+	margin: 0;
+}
+
+div .search-page {
+	float: left;
+	margin: 0;
+}
+
+div .app-page {
+	float: right;
+	margin: 0;
+}
+
+div .map-page {
+	float: left;
+	margin: 0;
+}
+
+div .gallery-page {
+	float: left;
+	margin: 0;
+}
+
+div .Calculator-page {
+	float: right;
+	margin: 0;
+}
+
+div .skills-pro {
+	width: 40%;
+	margin: 0 5%;
+}
+
+div .skills-advanced {
+	width: 40%;
+	margin: 0 5%;
+}
 
 }
 
